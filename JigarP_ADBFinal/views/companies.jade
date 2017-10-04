@@ -1,0 +1,46 @@
+extends layout
+
+block content
+    h1 Crunchbase
+
+    table(border='1')
+        thead
+            tr
+                th Company Name
+                td= title
+            tr
+                th Website
+                td= URLcompany
+            tr
+                th Founded Year
+                td= foundedYear
+            tr
+                th Alive Status
+                td= aliveHey
+            tr
+                th Company Email
+                td= Email
+            tr
+                th Company Phone Number
+                td= phoneNum
+            tr
+                th Company's City Location
+                td= Location
+            if (More == 'true')
+                tr
+                    th Company CEOs
+                    td= CEOFLName
+                tr
+                    th Company's Number of Employees
+                    td= EmployeesNum
+                tr
+                    th Company's Number of Products
+                    td= NumofProd
+                tr
+                    th Company's Age
+                    td= AgeofCompany
+                tr
+                    th Company's Total Money Raised
+                    td= Money
+            else
+            endif

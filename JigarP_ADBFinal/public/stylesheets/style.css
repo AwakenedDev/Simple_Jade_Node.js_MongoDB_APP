@@ -1,0 +1,72 @@
+body {
+    padding: 25px;
+    font: 14px "Lucida Grande", Helvetica, Times, sans-serif;
+    background-color: #fffee2;
+}
+
+h1 {
+    color: #000000;
+    width: 90%;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65px;
+    font-family: Algerian;
+    text-decoration-color: antiquewhite;
+    background-color: #c9ff53;
+}
+
+h2 {
+    color: #ff1822;
+    width: 90%;
+    padding: 50px;
+    text-align: start;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Times New Roman";
+}
+
+/*-------- table ------*/
+th {
+
+    background: #87CEFA;
+    padding: 20px;
+    font-family: "Comic Sans MS";
+}
+
+td {
+    border-color: #00B7FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Comic Sans MS";
+}
+
+p1 {
+    color: #ff1822;
+}
+
+input#name.form-control {
+   font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left: 10px;
+    color: cornflowerblue;
+}
+
+
+label1{
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+
+label2 {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+label3 {
+    color: #ff1822;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+

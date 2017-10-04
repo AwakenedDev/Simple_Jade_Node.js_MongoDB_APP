@@ -1,0 +1,16 @@
+{
+  "name": "jigarp-adbfinal",
+  "version": "1.0.0",
+  "description": "A small Node.js Express app created using MongoDB ",
+  "author": "Jigar Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "jade": "latest",
+    "mongodb": "latest",
+    "consolidate" : "latest",
+    "assert" : "latest"
+
+  }
+}

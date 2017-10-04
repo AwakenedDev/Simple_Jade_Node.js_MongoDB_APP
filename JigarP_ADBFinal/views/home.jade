@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    h1 Crunchbase Homepage
+    p1= message
+    br
+    br
+    form(method='POST' action="/")
+        label1(for='name') Company Name* :
+            input#name.form-control(type='text', placeholder=' Enter the name of company' name='company_name')
+        br
+        br
+        label1 Do you want to view extended information? *
+            br
+        label2 Yes
+            input(type='radio', id='yes', name='extended', value='1')
+        label2 No
+            input(type='radio', id='no', name='extended', value='2')
+        br
+        br
+        input(type='submit', name='Submit', value='Submit')
+        br
+        br
+        label3 * : Required
